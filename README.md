@@ -1,4 +1,4 @@
-# constant-dynamic-cliff
+# ConstantDynamic performance cliff benchmark
 
 This is a minimal reproducer for an issue where simply changing a single ConstantDynamic 
 instruction to an invokeDynamic instruction causes a 74X speedup in a JMH benchmark of some instrumented code.
